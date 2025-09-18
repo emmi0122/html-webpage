@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.header-table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.header-table td {
+    border: 1.5px solid black;
+    width: 300px;
+}
