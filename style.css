@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 5em 20em 0 20em;
     line-height: 1.4;
     color: #333;
 }
@@ -14,12 +14,16 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-    border: 2px solid black;
+    border: 2.3px solid black;
 }
 
 .header-table td {
-    border: 1.5px solid black;
+    border: 2px solid black;
     padding: 8px;
+}
+
+.header-table .empty-td {
+    padding: 15px;
 }
 
 .main-content h1 {
@@ -28,4 +32,17 @@ body {
 
 .main-content h2 {
     margin: 15px 0;
+}
+
+.vessel {
+    margin-bottom: 3em;
+}
+
+.project-info p {
+    padding: 5px;
+}
+
+.project-info .label {
+    font-weight: bold;
+    padding-bottom: 2em;
 }
