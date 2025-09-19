@@ -112,3 +112,25 @@ body {
 .checkbox-col {
     width: 10%;
 }
+
+.signature-section {
+    margin-top: 40px;
+    border: 2.3px solid black;
+    pad: 20px;
+}
+
+.signature-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.signature-table td {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+@media print {
+    body { margin: 15px; }
+    .test-section { page-break-inside: avoid; }
+}
