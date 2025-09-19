@@ -46,3 +46,24 @@ body {
     font-weight: bold;
     padding-bottom: 2em;
 }
+
+.toc {
+    margin: 20px 0;
+}
+
+.toc ol.no-dot {
+    list-style: none;
+    padding-left: 0;
+    counter-reset: num;
+}
+
+.toc ol.no-dot li {
+    counter-increment: num;
+}
+
+.toc ol.no-dot li::before {
+    content: counter(num) "";
+    display: inline-block;
+    text-align: right;
+    margin: 5px 2em 0 0;
+}
